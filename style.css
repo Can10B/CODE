@@ -1,0 +1,79 @@
+body {text-align: center; background: beige}
+
+p{ font-family: arial; font size: 30px; font font-weight: bold; }
+h1 { color : green; font-family: broadway; font-size: 50px }
+h2 {color: black; font-family: arial; }
+h3 {font-family: broadway}
+
+ul {text-align: left; font-family: arial; color: white;}
+
+.frame {background: lightgreen; 
+	padding: 30px; 
+	margin: 100px; 
+	border: solid 5px green; 
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px grey}
+
+.frame1 {background: green; 
+		padding: 30px;
+		margin: 30px;
+		border: dashed 5px lightgreen;
+		border-radius: 10px;
+	    box-shadow: 10px 10px 10px grey;}
+
+.circle-photo {
+width: 250px;
+height: 250px;
+border: none;
+border-radius: 125px;
+object-fit: cover;
+box-shadow: 10px 10px 10px 
+}
+
+.box-frame {
+	display: flex;
+	justify-content: center;
+}
+
+.frame2 {background: lightgreen;
+padding: 30px; 
+margin: 30px;
+border: solid 5px green;
+border-radius: 10px;
+box-shadow: 10px 10px 10px;
+}
+h4{font-family: broadway; font-size: 40px; color: green;}
+
+.box{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.description {
+	margin-right: 30px;
+}
+
+.mynavbar {
+display: flex;
+justify-content: space-between;
+width: 100%; background: green;
+height: 100%;
+background: green;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.link {
+	margin-left: 30%
+	color: black;
+}
+
+.logo {
+	object-fit: cover;
+	height: 70px;
+}
