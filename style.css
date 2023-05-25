@@ -1,79 +1,74 @@
-body {text-align: center; background: beige}
+body {text-align: center; 
+	background: white;}
 
-p{ font-family: arial; font size: 30px; font font-weight: bold; }
-h1 { color : green; font-family: broadway; font-size: 50px }
-h2 {color: black; font-family: arial; }
-h3 {font-family: broadway}
-
-ul {text-align: left; font-family: arial; color: white;}
-
-.frame {background: lightgreen; 
-	padding: 30px; 
-	margin: 100px; 
-	border: solid 5px green; 
-	border-radius: 10px;
-	box-shadow: 10px 10px 10px grey}
-
-.frame1 {background: green; 
-		padding: 30px;
-		margin: 30px;
-		border: dashed 5px lightgreen;
-		border-radius: 10px;
-	    box-shadow: 10px 10px 10px grey;}
-
-.circle-photo {
-width: 250px;
-height: 250px;
-border: none;
-border-radius: 125px;
-object-fit: cover;
-box-shadow: 10px 10px 10px 
-}
-
-.box-frame {
-	display: flex;
-	justify-content: center;
-}
-
-.frame2 {background: lightgreen;
-padding: 30px; 
-margin: 30px;
-border: solid 5px green;
-border-radius: 10px;
-box-shadow: 10px 10px 10px;
-}
-h4{font-family: broadway; font-size: 40px; color: green;}
-
-.box{
-	display: flex;
-	justify-content: space-around;
+.my-navbar {
+	display: flex; ;
+	justify-content: space-between;
 	align-items: center;
+	background: #C4DDFF;
 }
 
-.description {
-	margin-right: 30px;
-}
-
-.mynavbar {
-display: flex;
-justify-content: space-between;
-width: 100%; background: green;
-height: 100%;
-background: green;
-}
 
 .links {
 	display: flex;
-	align-items: center;
-	height: 100%;
+	justify-content: flex-end;
+	font-family: century gothic;
 }
 
+
 .link {
-	margin-left: 30%
+	margin: 10px 30px;
 	color: black;
+	font-family: century gothic;
 }
+
 
 .logo {
 	object-fit: cover;
-	height: 70px;
+	height: 100px;
 }
+
+.frame {background: white; 
+	padding: 50px; 
+	margin: 50px; 
+	width: 500px;
+	height: 250px;
+	border: solid 5px #C4DDFF; 
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px grey}
+
+.frame1 {background: white;
+	padding: 20px; 
+	margin: 20px; 
+	width: 500px;
+	height: 500px;
+	border: solid 5px #C4DDFF; 
+}
+
+h1{color: #00337C; 
+	font-size: 50px;
+	font-family: broadway;
+    justify-content: center;}
+
+h2 {font-size: 28px;
+font-family: calibri;
+text-align: center;
+color: #00337C;} 
+
+
+h3, h4, h5, h6 {font-size: 23px;
+font-family: century gothic;
+text-align: left;}
+
+
+p, ul { font-family: century gothic;
+text-align: left;}
+
+.aya {height: 600px;
+margin-right: 50px;
+}
+
+.rouge {height: 600px;
+margin-right: 50px;
+}
+
